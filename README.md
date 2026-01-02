@@ -1,1 +1,1 @@
-Final Endsem - infra + config + image + container pipeline
+Devops Practical - infra + config + image + container pipeline
