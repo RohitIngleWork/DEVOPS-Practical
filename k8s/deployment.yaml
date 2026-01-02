@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: final-endsem-deployment
+  labels:
+    app: final-endsem
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: final-endsem
+  template:
+    metadata:
+      labels:
+        app: final-endsem
+    spec:
+      containers:
+      - name: final-endsem
+        image: rohitinglework/final-endsem-app:1.0
+        ports:
+        - containerPort: 80
