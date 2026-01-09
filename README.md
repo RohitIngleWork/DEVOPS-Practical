@@ -67,9 +67,6 @@ Notes
 - Avoid committing secrets or credentials. See `.gitignore` for ignored patterns (Terraform state, editor files, keys, etc.).
 - Edit inventories and provider credentials before running Ansible/Terraform/Packer.
 
-Contribution / Next steps
-- Add repository URL, CI/CD instructions, and environment-specific notes here.
-
 ---
 Last updated: 2026-01-02
 Devops Practical - infra + config + image + container pipeline
